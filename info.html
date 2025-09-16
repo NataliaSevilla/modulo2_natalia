@@ -5,6 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 40%;
+            height: auto;
+
+
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        td {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,8 +53,48 @@
 
     </header>
     <div>
-        <h1>Información</h1>
+
+        <h1 style="text-align:center;">Mi horario semanal</h1>
+
+        <img src="images/horario.jpg" alt="horario">
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>7:00 - 9:00</td>
+                <td colspan="5">Levantarse, desayunar y tareas</td>
+            </tr>
+            <tr>
+                <td>09:00 - 15:00</td>
+                <td colspan="5">Trabajo</td>
+            </tr>
+            <tr>
+                <td>15:00 - 16:00</td>
+                <td colspan="5">Almuerzo</td>
+            </tr>
+            <tr>
+                <td>16:00 - 19:30</td>
+                <td colspan="5">Bootcamp</td>
+            </tr>
+            <tr>
+                <td>19:30 - 22:00</td>
+                <td colspan="5">Desconectar, cenar y dormir</td>
+            </tr>
+        </table>
+
+
     </div>
+       <!-- Pie de página -->
+       <footer>
+        <p>Pie de página</p>
+        <p>&copy; 2025 Mi página de ejemplo</p>
+      </footer>
 </body>
 
 </html>
