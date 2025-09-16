@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de duda</h1>
+        <nav>
+            <ul>
+                <li><a href="info.html">ir a información</a></li>
+                <li><a href="index.html">if a inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Envianos tus dudas:</h2>
+    <img src="images/6785998.png" alt="dudas" width="150">
+    <form action="" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" />
+        <br />
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Tus apellidos" />
+        <br />
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono" maxlength="9" placeholder="Ej: 612345678" />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="tucorreo@ejemplo.com" />
+        <br />
+
+        <label for="responder">Responder por: </label>
+        <input type="radio" name="responderEMail" id="responderEMail" value="EMail">
+        <label for="responderEMail">Por email</label>
+        <input type="radio" name="responderTlfn" id="responderTlfn" value="Teléfono">
+        <label for="responderTlfn">Por teléfono</label>
+
+        <br>
+
+        <label for="duda">Escribe tu duda</label>
+        <textarea placeholder="Escribe tu duda...." name="duda" id="duda"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
